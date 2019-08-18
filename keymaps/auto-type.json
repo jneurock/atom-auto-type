@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "shift-cmd-A": "auto-type:from-file",
+    "shift-cmd-ctrl-A": "auto-type:stop"
+  }
+}

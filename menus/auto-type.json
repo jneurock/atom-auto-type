@@ -1,0 +1,34 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Auto-Type from file",
+        "command": "auto-type:from-file"
+      },
+      {
+        "label": "Auto-Type stop",
+        "command": "auto-type:stop"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "auto-type",
+          "submenu": [
+            {
+              "label": "From File",
+              "command": "auto-type:from-file"
+            },
+            {
+              "label": "Stop",
+              "command": "auto-type:stop"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

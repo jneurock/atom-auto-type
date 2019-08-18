@@ -1,0 +1,21 @@
+{
+  "name": "auto-type",
+  "main": "./lib/auto-type",
+  "version": "0.0.0",
+  "description": "An Atom package that automatically types content from a file into the active text editor.",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": [
+      "auto-type:from-file",
+      "auto-type:stop"
+    ]
+  },
+  "repository": "https://github.com/atom/auto-type",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "@aki77/atom-input-dialog": "^1.0.0"
+  }
+}
